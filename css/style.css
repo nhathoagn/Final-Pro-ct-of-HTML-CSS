@@ -298,11 +298,11 @@ text-align: right;
     float: left;
     margin-left: 2%;
 }
-#post-content-h6{
+.post-content-h6{
     color: black;
     font-size: 20px;
 }
-#post-content-p{
+.post-content-p{
     font-size: 17px;
     color: gray;
 }
