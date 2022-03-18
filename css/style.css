@@ -22,6 +22,7 @@
 } */
 a{
     text-decoration: none;
+    color: gray;
 }
 /* Header-bar */
 .top_header_area{
@@ -36,13 +37,13 @@ a{
 .block{
     width: 50%;
     float: left;
-    
+
 }
 
 .login_register_area{
     width: 50%;
     float: left;
-    
+
 }
 .login_register_area::after{
     content: "";
@@ -71,7 +72,7 @@ text-align: right;
     text-decoration: none;
     color: black;
     font-size: 50px;
-    
+
 }
 .logo_area{
     text-align: center;
@@ -86,8 +87,8 @@ text-align: right;
     padding: 0;
     overflow: hidden;
     text-align: center;
-    
-    
+
+
 }
 .navbar_area li{
     display: inline;
@@ -120,7 +121,7 @@ text-align: right;
 .section-content{
     float: left;
     width: 50%;
-    
+
 }
 .section-content::after{
     content: "";
@@ -164,7 +165,7 @@ text-align: right;
 .post-date-content{
     width: 45%;
     float: left;
-   
+
 }
 .post-author-content a{
     margin-left: 42%;
@@ -185,12 +186,15 @@ text-align: right;
     border: 1px solid gray;
     border-radius: 23px;
     padding: 1%;
-    width: 14%;
+    width: 16%;
+}
+.read-more a{
+    color: gray;
 }
 /* SideBar */
 .widget-title{
     text-align: center;
-    
+
 }
 .widget-title h6{
     font-size: 18px;
@@ -345,7 +349,7 @@ text-align: right;
     clear: both;
 }
 .post-author-mid-2{
-    width: 28%;
+    width: 30%;
     float: left;
     border-right: 1px solid gray;
 }
@@ -365,7 +369,7 @@ text-align: right;
     clear: both;
 }
 .post-author-mid-3{
-    width: 28%;
+    width: 30%;
     float: left;
     border-right: 1px solid gray;
 }
@@ -429,14 +433,14 @@ text-align: right;
 .read-more-list-blog-a{
     border: 1px solid gray;
     padding: 3%;
-    width: 35%;
+    width: 37%;
     border-radius: 20px;
 }
 /* Footer */
 .footer_area{
     clear: both;
     text-align: center;
-   
+
 }
 .copy_right_text{
     height: 60px;
